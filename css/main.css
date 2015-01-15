@@ -46,3 +46,11 @@ html {
   left: calc(50% - 14px);
   top: calc(50% - 14px);
 }
+
+.clock-face:hove.hand-hour{
+    transform: rotate(360deg);
+}
+
+.clock-face:hover .hand-minute{
+    transform: rotate(4320deg);
+}
