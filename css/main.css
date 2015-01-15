@@ -54,3 +54,32 @@ html {
 .clock-face:hover .hand-minute{
     transform: rotate(4320deg);
 }
+
+.button {
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    line-height: 6em;
+    transition: all .4s linear;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 20px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.green {
+  background-color: #080;
+  left: calc(50% - 135px);
+}
+
+.red {
+  background-color: #F00;
+  right: calc(50% - 135px);
+}
