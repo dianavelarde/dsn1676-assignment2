@@ -25,12 +25,24 @@ html {
 .clock-face {
   height: 300px;
   width: 300px;
+  background-image: url("../img/clock-face.svg");
+  position: relative;
+  top: 135px;
+  left: calc(50% - 150px);
 }
 
 .hand {
   width: 14px;
+  position: absolute;
+  left: calc(50% - 7px);
+  bottom: 50%;
+  transition: all 5s linear;
+  transform-origin: bottom center
 }
 
 .center {
   width: 28px;
+  position: absolute;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px);
 }
