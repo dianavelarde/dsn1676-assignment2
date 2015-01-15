@@ -29,6 +29,7 @@ html {
   position: relative;
   top: 135px;
   left: calc(50% - 150px);
+  background-repeat: no-repeat;
 }
 
 .hand {
@@ -47,11 +48,11 @@ html {
   top: calc(50% - 14px);
 }
 
-.clock-face:hove.hand-hour{
+.clock-face:target .hand-hour{
     transform: rotate(360deg);
 }
 
-.clock-face:hover .hand-minute{
+.clock-face:target .hand-minute{
     transform: rotate(4320deg);
 }
 
